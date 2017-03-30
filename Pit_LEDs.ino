@@ -44,7 +44,7 @@ void color_chase(uint32_t color, uint8_t wait)
    FastLED.setBrightness(MAX_BRIGHTNESS);
    // Move a block of LEDs
    
-   for(int i = 10; i > 0; i--)
+   for(int i = 0; i < 10; i++)
    {
       for(int l = 0; l < NUM_LEDS; l++)
       {
